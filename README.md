@@ -15,12 +15,15 @@ We use the standard Fork & Pull Request workflow to ensure code quality and orga
 The complete workflow is as follows:
 
 **Step 1: Fork the Project Repository**
+
 In the top-right corner of the project's GitHub page, click the "Fork" button. This will create a complete copy of the project under your own GitHub account.
 
 **Step 2: Clone Your Fork to Your Local Machine**
+
 Open your terminal and use the `git clone` command to clone your forked repository to your local computer.
 
 **Step 3: Create a New Working Branch**
+
 Before you start writing code, create a new branch with a descriptive name based on the `main` branch. Do not make changes directly on the `main` branch.
 
 Branch Naming Convention: `feature/your-feature-name` or `fix/bug-description`. For example:
@@ -33,6 +36,7 @@ git checkout -b feature/add-topic-1
 ```
 
 **Step 4: Code & Commit**
+
 Add or modify code in your chosen topic directory (e.g., `topics/topic_2/`). Once your development is complete, commit your changes.
 
 ```bash
@@ -44,6 +48,7 @@ git commit -m "feat: ..."
 ```
 
 **Step 5: Push Your Branch to Your Remote Repository**
+
 Push your local branch to your forked repository on GitHub.
 
 ```bash
@@ -51,6 +56,7 @@ git push origin feature/add-topic-1
 ```
 
 **Step 6: Create a Pull Request (PR)**
+
 Return to your repository page on GitHub. You will see a prompt to create a Pull Request from the branch you just pushed. Click that button, and then:
 
   * **Check the details:** Ensure the base repository is `main` and the head repository is your own branch.
